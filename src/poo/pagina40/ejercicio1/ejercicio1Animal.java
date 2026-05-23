@@ -1,4 +1,4 @@
-package com.animales.app;
+package poo.pagina40.ejercicio1;
 
 class Animal {
 
