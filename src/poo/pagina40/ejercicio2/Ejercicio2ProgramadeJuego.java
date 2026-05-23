@@ -1,4 +1,4 @@
-package com.practica.juego;
+package poo.pagina40.ejercicio2;
 import java.util.Scanner;
 
 class Pregunta {
