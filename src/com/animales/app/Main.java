@@ -11,7 +11,6 @@ public class Main {
         System.out.println("Extremidades: " + miAnimal.getExtremidades());
 
         System.out.println("\n--- Modificando datos con Setters ---");
-
         miAnimal.setNombre("Águila Real");
         miAnimal.setOrden("Accipitriformes");
         miAnimal.setExtremidades(2);
