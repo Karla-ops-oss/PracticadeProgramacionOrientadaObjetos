@@ -15,29 +15,3 @@ public class Ejercicio1PolimorfismoVehículo {
     }
 }
 
-class Vehiculo {
-    public void moverse() {
-        System.out.println("El vehículo se está moviendo de forma general.");
-    }
-}
-
-class Automovil extends Vehiculo {
-    @Override
-    public void moverse() {
-        System.out.println("El automóvil avanza sobre ruedas por la carretera: ¡Brum brum!");
-    }
-}
-
-class Barco extends Vehiculo {
-    @Override
-    public void moverse() {
-        System.out.println("El barco navega cruzando las olas del mar: ¡Flashh!");
-    }
-}
-
-class Avion extends Vehiculo {
-    @Override
-    public void moverse() {
-        System.out.println("El avión vuela por los aires rompiendo las nubes: ¡Fiuuu!");
-    }
-}
